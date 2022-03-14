@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(209, 209, 209);
+    color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul.menu{
+    max-width: 50%;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+ul.menu li{
+    float: left;
+    margin: 0 auto;
+}
+ul.menu li a {
+    display: block;
+    padding: 12px 14px;
+    color: rgb(253, 123, 1);
+}
+
+ol{
+    list-style-position: inside;
+}
